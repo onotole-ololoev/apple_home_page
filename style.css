@@ -93,3 +93,82 @@ section {
 
     margin-top: 15px;
 }
+
+.streaming_now {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    background-image: url("./assets/now_streaming_background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+}
+
+.streaming_now > div {
+    display: flex;
+    flex: 1;
+}
+.streaming_now-actors {
+    display: flex;
+}
+
+.streaming_now-actors > div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.streaming_now-actors p {
+    color: #DED2B9;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.6px;
+}
+.streaming_now-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.streaming_now-description--top {
+    color: #F5F5F7;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.002px; /* 110.722% */
+    letter-spacing: 0.112px;
+
+    margin-top: 250px;
+}
+
+.streaming_now-description--bottom {
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+
+    margin-top: 15px;
+}
+
+.new_iphone {
+    display: flex;
+    flex: 1;
+
+    background-image: url("./assets/iphone_background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
