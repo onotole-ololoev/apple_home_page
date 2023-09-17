@@ -166,9 +166,68 @@ section {
 .new_iphone {
     display: flex;
     flex: 1;
+    justify-content: center;
 
     background-image: url("./assets/iphone_background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.new_iphone-info > h1 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: -0.28px;
+
+    margin-top: 63px;
+}
+.new_iphone-info > p {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.002px; /* 110.722% */
+    letter-spacing: 0.112px;
+}
+
+.new_iphone-info > div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.new_iphone-link {
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+
+    margin-top: 15px;
+}
+
+#apple-products {
+    display: flex;
+    width: 100%;
+
+    flex-wrap: wrap;
+
+}
+
+.apple-product-card {
+    display: flex;
+    flex: 1 0 50%;
+
+    height: 580px;
 }
