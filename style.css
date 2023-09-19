@@ -5,6 +5,8 @@ header {
     top: 0;
     left: 0;
 
+    z-index: 2;
+
     display: flex;
     justify-content: center;
 
@@ -316,4 +318,17 @@ section {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+.swiper {
+    /*width: 600px;*/
+    /*height: 300px;*/
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+.swiper img {
+    width: 100%;
+}
+.swiper-pagination-bullet-active {
+    --swiper-theme-color: rgba(0, 0, 0, 0.56);
 }
